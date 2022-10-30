@@ -5,8 +5,8 @@ void Firstclass(int s[])
            	printf("\nFirst class\n");
 			printf("Seats available are 1-30.\n");
             printf("Pick a seat:\n\n");
-            scanf("%d",&p);
-                if(p<1||p>30)
+            scanf("%d",p);
+                if(p<1&&p>30)
                 {
                 printf("\nWrong number!  No seat for you! \n\n");
                 }
